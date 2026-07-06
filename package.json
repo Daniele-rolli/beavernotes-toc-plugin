@@ -1,0 +1,18 @@
+{
+  "name": "com.daniele-rolli.toc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auto-updating Table of Contents plugin for Beaver Notes",
+  "scripts": {
+    "build": "beaver-plugin build",
+    "pack": "beaver-plugin pack",
+    "package": "beaver-plugin package",
+    "watch": "beaver-plugin build --watch",
+    "validate": "beaver-plugin validate",
+    "install:local": "beaver-plugin package --install"
+  },
+  "devDependencies": {
+    "@beaver-notes/plugin-sdk": "^1.0.0",
+    "@beaver-notes/plugin-builder": "^1.0.0"
+  }
+}

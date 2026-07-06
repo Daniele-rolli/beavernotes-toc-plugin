@@ -1,0 +1,14 @@
+{
+  "id": "com.daniele-rolli.toc",
+  "name": "Table of Contents",
+  "version": "1.0.0",
+  "author": "Beaver Notes",
+  "description": "Auto-updating table of contents from document headings",
+  "icon": "riListOrdered",
+  "minAppVersion": "5.0.0-beta.1",
+  "isDesktopOnly": false,
+  "planes": ["editor"],
+  "permissions": [],
+  "main": "src/index.ts",
+  "storageSchemaVersion": 1
+}

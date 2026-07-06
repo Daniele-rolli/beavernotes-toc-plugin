@@ -1,0 +1,34 @@
+name: Publish Plugin
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build plugin
+        run: npm run build
+
+      - name: Validate plugin
+        run: npm run validate
+
+      - name: Package plugin
+        run: npm run package
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: *.beax
+          generate_release_notes: true
