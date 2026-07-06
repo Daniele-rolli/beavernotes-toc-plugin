@@ -8,7 +8,7 @@ Auto-updating Table of Contents from document headings.
 - Automatically scans your note for headings (h1–h6)
 - Shows indented hierarchy with heading prefixes
 - Click any heading to jump to it
-- Auto-updates as you edit — always in sync
+- Auto-updates as you edit
 - Works completely offline, zero dependencies
 
 ## Usage
