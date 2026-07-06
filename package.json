@@ -12,7 +12,7 @@
     "install:local": "beaver-plugin package --install"
   },
   "devDependencies": {
-    "@beaver-notes/plugin-sdk": "^1.0.0",
-    "@beaver-notes/plugin-builder": "^1.0.0"
+    "@beaver-notes/plugin-builder": "^1.1.0",
+    "@beaver-notes/plugin-sdk": "^1.1.0"
   }
 }
